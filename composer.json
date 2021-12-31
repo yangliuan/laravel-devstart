@@ -1,0 +1,17 @@
+{
+    "name": "yangliuan\/laravel-devstart",
+    "description": "laravel开发脚本完成一些重复工作",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yangliuan",
+            "email": "yangliuancn@foxmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Yangliuan\\LaravelDevstart\\": "src"
+        }
+    }
+}
