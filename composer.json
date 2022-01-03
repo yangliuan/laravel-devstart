@@ -1,5 +1,5 @@
 {
-    "name": "yangliuan\/laravel-devstart",
+    "name": "yangliuan/laravel-devstart",
     "description": "laravel开发脚本完成一些重复工作",
     "license": "MIT",
     "authors": [
@@ -8,10 +8,23 @@
             "email": "yangliuancn@foxmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^8.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.4"
+    },
     "autoload": {
         "psr-4": {
             "Yangliuan\\LaravelDevstart\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yangliuan\\LaravelDevstart\\DevstartServiceProvider"
+            ]
         }
     }
 }
