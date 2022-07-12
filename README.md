@@ -1,6 +1,6 @@
 <h1 align="center"> laravel-devstart </h1>
 
-<p align="center"> laravel开发初始化脚本，完成一些重复工作.</p>
+<p align="center"> laravel开发初始化脚本，完成一些重复工作.弃坑</p>
 
 
 ## Installing
